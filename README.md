@@ -3,7 +3,7 @@ Backend Application for the Plooral Test
 
 ## Routes 🌐
 - `GET /companies`: List existing companies.
-- `GET /companies/companyId`: Fetch a specific company by ID.
+- `GET /companies/:companyId`: Fetch a specific company by ID.
 - `POST /job`: Create a job posting draft.
 - `PUT /job/:jobId/publish`: Publish a job posting draft.
 - `PUT /job/:jobId`: Edit a job posting draft (title, location, description).
